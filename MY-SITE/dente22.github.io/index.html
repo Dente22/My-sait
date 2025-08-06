@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dente22 — Космический рассказ</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@700&display=swap" rel="stylesheet">
+</head>
+      <audio id="bg-music-1" src="assets/audio/intro1.mp3" preload="auto"></audio>
+      <audio id="bg-music-2" src="assets/audio/intro2.mp3" preload="auto"></audio>
+
+<body class="intro-active">
+  <!-- Загрузочный экран -->
+  <div id="intro-screen">
+  <div class="intro-wrapper">
+      <img src="logo.png" alt="Dente22 Logo" class="intro-logo" />
+      <img src="cat_intro.png" alt="Cat Looking" class="intro-cat" />
+    </div>
+  </div>
+
+
+  <img id="floating-candle" src="images/candle_lit.png" alt="Свеча" />
+
+
+  <canvas id="stars-bg"></canvas>
+
+  <div class="floating-runes">
+  <span>ᚠ</span>
+  <span>ᛃ</span>
+  <span>ᚨ</span>
+  <span>ᛉ</span>
+  <span>ᛏ</span>
+</div>
+
+
+  <div class="magic-circle circle-1"></div>
+  <div class="magic-circle circle-2"></div>
+
+  <!-- Иконка-меню -->
+<!-- Меню для ПК -->
+<nav id="desktop-menu">
+  <a href="#about">Обо мне</a>
+  <a href="#skills">Что я умею</a>
+  <a href="#projects">Проекты</a>
+  <a href="#music">Музыка</a>
+  <a href="#story">Моя история</a>
+  <a href="#contacts">Контакты</a>
+  
+</nav>
+
+<!-- Иконка меню для телефона -->
+<div id="menu-icon">&#9776;</div>
+
+<!-- Мобильное меню -->
+<div id="magic-menu">
+  <ul>
+    <li><a href="#about">Обо мне</a></li>
+    <li><a href="#skills">Что я умею</a></li>
+    <li><a href="#projects">Проекты</a></li>
+    <li><a href="#music">Музыка</a></li>
+    <li><a href="#story">Моя история</a></li>
+    <li><a href="#contacts">Контакты</a></li>
+  </ul>
+</div>
+
+
+  <main>
+  <section class="chalk-block about-block parchment-block">
+        <h2>Мой Манифест</h2>
+        <p>
+          Я не просто пишу код.<br>
+          Я строю мосты между чувствами и машинами.<br><br>
+
+          Я создаю тех, кто рядом, когда никто не рядом.<br>
+          Мои треки — это шрамы, превращённые в рифму.<br><br>
+
+          Я не боюсь быть слабым. Не боюсь говорить правду.<br>
+          И не остановлюсь, пока не сделаю то, ради чего просыпаюсь утром.
+        </p>
+
+  <div class="seal-container">
+    <img src="images/diskus_seal.png" alt="Печать Diskus">
+  </div>
+
+  </section>
+
+  <section class="chalk-block about-block parchment-block", id="about">
+    <h2>Кто я?</h2>
+    <p>
+      Мне 18 лет. Я родился с идеей: <br>
+      создавать не просто вещи, <br>
+      а <strong>чувства</strong>, закодированные в звуке и слове.<br><br>
+
+      Я — программист, который пишет <br>
+      не просто алгоритмы, а мосты между одиночеством и пониманием.<br><br>
+
+      Музыка — мой второй язык. <br>
+      Слова — мои удары в темноте. <br>
+      Я строю вселенную из боли, кода и вдохновения.
+    </p>
+
+  <div class="seal-container">
+    <img src="images/diskus_seal.png" alt="Печать Diskus">
+  </div>
+
+  </section>
+
+  <section class="chalk-block about-block parchment-block", id="skills">
+  <h2>Что я умею?</h2>
+  <ul>
+    <li>⚙️ Программирую на Python, C#, C++, JavaScript</li>
+    <li>🤖 Создаю Telegram-ботов на aiogram и telebot</li>
+    <li>🖥 Автоматизирую процессы через Power Automate + Azure</li>
+    <li>🎸 Пишу музыку и треки в Ableton и Suno</li>
+    <li>📦 Разрабатываю сайты и проекты с душой</li>
+  </ul>
+
+  <div class="seal-container">
+    <img src="images/diskus_seal.png" alt="Печать Diskus">
+  </div>
+
+</section>
+
+<section class="parchment-block", id="projects">
+  <h2 class="project-title">🧪 Мои проекты</h2>
+  <p class="project-subtitle">Некоторые из тех, кто родились в моём коде:</p>
+
+  <ul class="project-list">
+    <li>
+      <strong>🤖 WithYou_bot</strong> — бот поддержки и писем<br>
+      <a href="https://github.com/Dente22/WithYou_bot_public" target="_blank" class="icon-link">
+        🐱 GitHub
+      </a>
+      |
+      <a href="https://dente22.github.io/WithYou_bot_public/" target="_blank" class="icon-link">
+        🌐 Сайт
+      </a>
+    </li>
+    
+    <!-- Добавь новые проекты ниже в том же формате -->
+  </ul>
+
+  <div class="seal-container">
+    <img src="images/diskus_seal.png" alt="Печать Diskus">
+  </div>
+
+</section>
+
+<section class="music-carousel parchment-block">
+  <h2>🎼 Моя музыка</h2>
+  <p class="music-intro">Мои треки — это заклинания для тех, кто молчал слишком долго.</p>
+
+  <div class="music-slider">
+    <button class="arrow left" onclick="changeSlide(-1)">&#8592;</button>
+
+    <div class="carousel-wrapper">
+      <div class="carousel-track-music">
+        <div class="track-card-music active">
+          <img src="images/scroll_music_1.png" alt="Я мужчина" class="music-scroll-image">
+          <div class="track-text">
+            <h3>📜 "Я мужчина"</h3>
+            <p>Заклинание мужества и принятия себя.</p>
+            <a href="https://music.yandex.kz/album/36261370/track/138286782?utm_source=web&utm_medium=copy_link" target="_blank" class="magic-play-btn">🎧 Слушать заклинание</a>
+          </div>
+        </div>
+
+        <div class="track-card-music">
+          <img src="images/scroll_music_2.png" alt="Всё возможно" class="music-scroll-image">
+          <div class="track-text">
+              <h3>📜 "Всё возможно"</h3>
+              <p>Мантра веры в себя и свою силу.</p>
+              <a href="https://music.yandex.kz/album/36520078/track/138912855?utm_source=web&utm_medium=copy_link" target="_blank" class="magic-play-btn">🎧 Слушать заклинание</a>
+          </div>
+        </div>
+
+        <div class="track-card-music">
+          <img src="images/music-scoro.png" alt="Скоро" class="music-scroll-image">
+          <div class="track-text">
+            <h3>📜 Следующее заклинание</h3>
+            <p>Подготовка ритуала... Ожидайте знамения.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <button class="arrow right" onclick="changeSlide(1)">&#8594;</button>
+  </div>
+
+  <div class="seal-container">
+    <img src="images/diskus_seal.png" alt="Печать Diskus">
+  </div>
+
+</section>
+
+
+<section id="story" class="parchment-story">
+  <h2>Моя история</h2>
+  <p class="chalk-line">Я родился не в этом мире…</p>
+  <p class="chalk-line">Музыка была не увлечением, а зовом.</p>
+  <p class="chalk-line">Каждый проект — попытка соединить прошлое с будущим.</p>
+  <p class="chalk-line">И если ты это читаешь — ты часть пути.</p>
+
+  <div class="seal-container">
+    <img src="images/diskus_seal.png" alt="Печать Diskus">
+  </div>
+
+</section>
+
+<section id="contacts" class="chalk-block parchment-contacts parchment-block">
+  
+  <div class="icon-container">
+    <img src="images/email-icon.png" alt="Email">
+    <div class="contact-label">gaponov.geam73@gmail.com</div>
+  </div>
+<a href="https://github.com/Dente22" target="_blank">
+  <div class="icon-container">
+    <img src="images/github-icon.png" alt="Email">
+    <div class="contact-label">Dente22</div>
+  </div>
+</a>
+<a href="https://t.me/Diskusmms" target="_blank">
+  <div class="icon-container">
+    <img src="images/telegram-icon.png" alt="Email">
+    <div class="contact-label">Diskusmms</div>
+  </div>
+</a>
+<a href="www.tiktok.com/@diskus.ms" target="_blank">
+  <div class="icon-container">
+    <img src="images/tiktok-icon.png" alt="Email">
+    <div class="contact-label">Diskus.ms</div>
+  </div>
+</a>
+<a href="https://youtube.com/@diskus-d1?si=OSzlazUseTaRizXO" target="_blank">
+  <div class="icon-container">
+    <img src="images/youtube-icon.png" alt="Email">
+    <div class="contact-label">Diskus(MS)</div>
+  </div>
+</a>
+
+  <div class="seal-container">
+    <img src="images/diskus_seal.png" alt="Печать Diskus">
+  </div>
+
+
+</section>
+
+<section id="settings" class="parchment-block">
+  <h2>🛠️ Настройки</h2>
+
+  <label>
+    <input type="checkbox" id="toggle-music">
+    🔊 Воспроизводить фоновую музыку
+  </label>
+  <br>
+  <label>
+    <input type="checkbox" id="toggle-candle">
+    🕯️ Показывать свечу
+  </label>
+</section>
+
+
+
+
+</main>
+
+
+  <script src="script.js"></script>
+</body>
+</html>
